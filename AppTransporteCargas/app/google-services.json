@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "603051579447",
+    "project_id": "usuarios-60911",
+    "storage_bucket": "usuarios-60911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603051579447:android:e1516ccbc56954fd2e07b2",
+        "android_client_info": {
+          "package_name": "br.edu.ifsuldeminas.mch.apptransportecargas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg67as7WllusybkbcYNCNc_Q369OQgnU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

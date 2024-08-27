@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/padding_tam_1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloLogin"
+        android:textSize="@dimen/text_tam_3"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="@dimen/margin_tam_2"/>
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nomePlaholder"
+        android:inputType="text"
+        android:layout_marginBottom="@dimen/margin_tam_1"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/senhaPlaholder"
+        android:inputType="textPassword"
+        android:layout_marginBottom="@dimen/margin_tam_2"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnLogin"
+        android:backgroundTint="@color/azul" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCadastrar"
+        android:layout_marginTop="@dimen/margin_tam_2"
+        android:backgroundTint="@color/azul"/>
+
+
+    <TextView
+        android:id="@+id/textViewChangePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSenhaNova"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="@dimen/margin_tam_2"
+        android:layout_marginTop="@dimen/margin_tam_3"
+        android:clickable="true"
+        android:focusable="true"/>
+</LinearLayout>
